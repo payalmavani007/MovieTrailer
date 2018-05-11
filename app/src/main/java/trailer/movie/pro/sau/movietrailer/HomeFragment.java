@@ -1,6 +1,6 @@
 package trailer.movie.pro.sau.movietrailer;
 
-
+import android.annotation.SuppressLint;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.Surface;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.google.android.exoplayer2.DefaultLoadControl;
 import com.google.android.exoplayer2.DefaultRenderersFactory;
 import com.google.android.exoplayer2.ExoPlaybackException;
@@ -107,6 +106,7 @@ public  final DefaultBandwidthMeter BANDWIDTH_METER = new DefaultBandwidthMeter(
         }
     }
 
+    @SuppressLint("InlinedApi")
     private void hideSystemUi() {
         playerView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE |
                 View.SYSTEM_UI_FLAG_FULLSCREEN |
