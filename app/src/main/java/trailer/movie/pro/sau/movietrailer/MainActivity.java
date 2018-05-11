@@ -76,23 +76,21 @@ public class MainActivity extends AppCompatActivity
 
         Fragment fragment = null;
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.home) {
         }
         else if (id == R.id.movie_trailer) {
       fragment = new MovieTrailerFragment();
         }
-        else if (id == R.id.nav_slideshow) {
+        else if (id == R.id.contact_us) {
 
         }
-        else if (id == R.id.nav_manage) {
+        else if (id == R.id.about_us) {
 
         }
-        else if (id == R.id.nav_share) {
+        else if (id == R.id.share) {
 
         }
-        else if (id == R.id.nav_send) {
 
-        }
         if (fragment != null)
         {
             FragmentTransaction fragmentTransaction= getSupportFragmentManager().beginTransaction();

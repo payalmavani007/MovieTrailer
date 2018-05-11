@@ -43,6 +43,10 @@ public class MovieTrailerAdapter extends RecyclerView.Adapter<MovieTrailerAdapte
         }
 
     }
+    public  void  clear()
+    {
+        array.equals(0);
+    }
 
     @Override
     public int getItemCount() {
