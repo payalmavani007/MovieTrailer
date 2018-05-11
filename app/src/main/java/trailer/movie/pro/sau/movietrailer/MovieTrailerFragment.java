@@ -19,7 +19,7 @@ PullToLoadView pullToLoadView;
                              Bundle savedInstanceState) {
          View view = inflater.inflate(R.layout.fragment_movie_trailer, container, false);
         pullToLoadView = view.findViewById(R.id.movie_grid);
-        new Paginator_Movie(getContext(),pullToLoadView);
+       // new Paginator_Movie(getContext(),pullToLoadView);
          return view;
     }
 

@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
 
         if (id == R.id.home) {
+            fragment = new HomeFragment();
         }
         else if (id == R.id.movie_trailer) {
       fragment = new MovieTrailerFragment();
